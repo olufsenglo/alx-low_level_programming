@@ -16,7 +16,7 @@ int main(void)
 			first_c++;
 			continue;
 		}
-	
+
 		putchar(first_c);
 		first_c++;
 	}
