@@ -15,7 +15,8 @@ void times_table(void)
 		j = 0;
 		while (j <= 9)
 		{
-			printf("%d", i * j);
+			/*Use %2d to print in a field of width 2*/
+			printf("%2d", i * j);
 			if (j != 9)
 			{
 				printf(", ");
