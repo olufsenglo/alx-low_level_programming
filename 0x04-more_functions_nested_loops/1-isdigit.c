@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit: checks for a digit (0 through 9)
+ * _isdigit - checks for a digit (0 through 9)
  * @c: character to test
  *
  * Return: 1 if digit  0 otherwise
