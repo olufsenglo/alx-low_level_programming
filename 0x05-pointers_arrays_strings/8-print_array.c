@@ -1,9 +1,10 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include "main.h"
 
 /**
  * print_array - x
- * @str: string
+ * @a: array
+ * @n: number of elements in array
  *
  * Return: Always 0.
  */
