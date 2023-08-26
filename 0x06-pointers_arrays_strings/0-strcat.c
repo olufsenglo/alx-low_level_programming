@@ -35,5 +35,5 @@ char *_strcat(char *dest, char *src)
 	}
 	dest[count1] = '\0';
 
-	return dest;
+	return (dest);
 }
