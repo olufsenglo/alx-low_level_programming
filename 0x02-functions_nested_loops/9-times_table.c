@@ -15,15 +15,15 @@ void times_table(void)
 		j = 0;
 		while (j <= 9)
 		{
-			/*Use %2d to print in a field of width 2*/
+			/*putchar((i * j) + '0');*/
 			printf("%2d", i * j);
 			if (j != 9)
 			{
-				printf(", ");
+				putchar(' ');
 			}
 			j++;
 		}
-		printf("\n");
+		putchar('\n');
 		i++;
 	}
 }
