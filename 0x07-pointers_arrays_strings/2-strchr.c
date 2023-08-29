@@ -11,7 +11,7 @@
 char *_strchr(char *s, char c)
 {
 	int i = 0;
-	
+
 	/*can use *s but I currently have a better understanding of s[i]*/
 	/* planning on switching to *s */
 	while (s[i] != '\0')
@@ -19,15 +19,15 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			/*xter found, return its adrs*/
-			return &s[i];
+			return (&s[i]);
 		}
 		i++;
 	}
 
 	/*if ch is '\0' return pointer to '\0'*/
 	if (c == '\0')
-		return &s[i];
+		return (&s[i]);
 
 	/*character not found */
-	return NULL;
+	return (NULL);
 }
