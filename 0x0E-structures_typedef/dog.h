@@ -1,5 +1,5 @@
-#ifndef DOG
-#define DOG
+#ifndef _DOG
+#define _DOG
 
 /**
  * struct dog - dog struct
@@ -8,7 +8,6 @@
  * @age: Dog's age
  * @owner: Dog's owner
  */
-
 struct dog
 {
 	char *name;
